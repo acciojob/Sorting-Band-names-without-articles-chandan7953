@@ -23,4 +23,3 @@ for (let i = 0; i < newarr.length; i++) {
     touristSpots[i] = str;
 }
 
-console.log(touristSpots);
