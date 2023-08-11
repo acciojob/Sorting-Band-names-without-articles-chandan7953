@@ -23,3 +23,10 @@ for (let i = 0; i < newarr.length; i++) {
     touristSpots[i] = str;
 }
 
+
+let ele = document.getElementById("band");
+for(let key of touristSpots){
+	let item = document.createElement("li");
+    item.textContent = key;
+    ele.appendChild(item);
+}
